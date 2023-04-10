@@ -52,3 +52,9 @@ color: white;
 	justify-content: center;
 	align-items: space-between;
 }
+
+#main{
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin: 1px;
+	}
