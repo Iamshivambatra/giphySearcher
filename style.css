@@ -58,3 +58,25 @@ color: white;
 	flex-wrap: wrap;
 	margin: 1px;
 	}
+
+@media screen and (max-width:720px){
+input{
+	width: 73vw;
+}
+
+button{
+	width: 20vw;
+	margin left: 20px;
+}
+}
+@media screen and ( max-width:1150px){
+	input{
+	width: 73vw;
+}
+
+button{
+	width: 15vw;
+	margin left: 20px;
+}
+}
+
