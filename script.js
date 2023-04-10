@@ -2,6 +2,9 @@ document.getElementById("button").addEventListener('click',function(){
    var input = document.querySelector("input").value;
    console.log(input);
    search(input);
+   const result = document.getElementById("main");
+   let resultHTML = '';
+   result.innerHTML = resultHTML;
   pushToDOM(input);
 });
 
@@ -10,6 +13,9 @@ document.getElementById("input").addEventListener('keyup',function(e){
    if(e.which===13){
    console.log(input);
    search(input);
+   const result = document.getElementById("main");
+   let resultHTML = '';
+   result.innerHTML = resultHTML;   
    pushToDOM(input);
 }
 });
