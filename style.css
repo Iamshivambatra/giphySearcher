@@ -69,14 +69,4 @@ button{
 	margin left: 20px;
 }
 }
-@media screen and ( max-width:1150px){
-	input{
-	width: 73vw;
-}
-
-button{
-	width: 15vw;
-	margin left: 20px;
-}
-}
 
